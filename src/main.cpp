@@ -194,6 +194,13 @@ int main(int argc, char* argv[]) {
         SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
         SDL_RenderClear(renderer);
 
+        //render(vertexArraySphere, uniformsPlanet, Model::Earth);
+        //render(vertexArraySphere, uniformsMoon, Model::Moon);
+        //render(vertexArraySphere, uniformsPlanet, Model::Venus);
+        //render(vertexArraySphere, uniformsPlanet, Model::Saturn);
+        //render(vertexArrayCircle, uniformsRing, Model::Ring);
+        //render(vertexArraySphere, uniformsPlanet, Model::Sun);
+
         // Actualizar la ventana
         SDL_RenderPresent(renderer);
     }
